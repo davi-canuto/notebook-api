@@ -6,7 +6,7 @@ module V2
     def index
       @contacts = Contact.last(5)
 
-      render json: @
+      render json: @contacts
 
       expires_in 30.seconds, public: true
     end

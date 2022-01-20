@@ -1,5 +1,5 @@
 class AppName
-  def initialize(app, app_name)
+  def initialize(app,app_name)
     @app_name = app_name
     @app = app
   end
